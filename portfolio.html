@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!--Навігація-->
+    <header>
+      <div class="page-head container">
+        <nav class="nav">
+          <a href="./index.html" class="logo"><span lang="en" class="logo-web">Web</span>Studio</a>
+          <ul class="page-nav list-settings">
+            <li class="nav-item"><a href="./index.html" class="nav-list">Студія</a></li>
+            <li class="nav-item"><a href="./portfolio.html" class="nav-list nav-current">Портфоліо</a></li>
+            <li class="nav-item"><a href="" class="nav-list">Контакти</a></li>
+          </ul>
+        </nav>
+        <ul class="page-contact list-settings">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts contact-mail">
+              <svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:380961111111" class="contacts"
+              ><svg class="contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-phone"></use></svg
+              >38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--Фільтр-->
+      <section class="filtr-section">
+        <div class="container">
+          <h1 class="visually-hidden">Фільтр елементів</h1>
+          <ul class="list-settings filter-button">
+            <li class="filter-position"><button type="button" class="button-item">Усі</button></li>
+            <li class="filter-position"><button type="button" class="button-item">Веб-сайти</button></li>
+            <li class="filter-position"><button type="button" class="button-item">Додатки</button></li>
+            <li class="filter-position"><button type="button" class="button-item">Дизайн</button></li>
+            <li class="filter-position"><button type="button" class="button-item">Маркетинг</button></li>
+          </ul>
+          <!--Позиції фільтру-->
+          <ul class="list-settings filter">
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/techno.jpg" alt="Веб-сторінка для сайту Технокряк" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Технокряк</h2>
+                  <p>Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/neworlean-goldenstar.jpg" alt="Дизайн постера New Orlean vs Golden Star" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Постер New Orlean vs Golden Star</h2>
+                  <p>Дизайн</p>
+                </div></a
+              >
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/seafood.jpg" alt="Додаток для ресторану Seafood" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Ресторан Seafood</h2>
+                  <p>Додаток</p>
+                </div></a
+              >
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/prime.jpg" alt="Слухавки" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Проєкт Prime</h2>
+                  <p>Маркетинг</p>
+                </div></a
+              >
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/boxes.jpg" alt="Картонні коробки" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Проєкт Boxes</h2>
+                  <p>Додаток</p>
+                </div></a
+              >
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/inspirationhasnoborders.jpg" alt="Веб-сторінка Inspiration has no Borders" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Inspiration has no Borders</h2>
+                  <p>Веб-сайт</p>
+                </div></a
+              >
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/limitededition.jpg" alt="Сторінка з журналу" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Видання Limited Edition</h2>
+                  <p>Дизайн</p>
+                </div></a
+              >
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/lab.jpg" alt="Лейба" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Проєкт LAB</h2>
+                  <p>Маркетинг</p>
+                </div></a
+              >
+            </li>
+            <li class="filter-item">
+              <a href="" target="_blank" rel="nofollow noopener noreferrer"
+                ><div class="filter-thumb">
+                  <img src="./images/growingbusiness.jpg" alt="Ноутбук з веб-сторінкою Growing Business" width="370" height="294" />
+                  <div class="filter-overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="filter-info">
+                  <h2 class="filter-title">Growing Business</h2>
+                  <p>Додаток</p>
+                </div></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Футер-->
+    <footer class="footer">
+      <div class="container info-footer">
+        <div class="contact-info">
+          <a href="./index.html" class="logo logo-footer"><span lang="en" class="logo-web">Web</span>Studio</a>
+          <address>
+            <ul class="list-settings">
+              <li class="contact-item"><a href="https://goo.gl/maps/MqGmsfagtQrmFsh36" target="_blank" class="address-place">м. Київ, пр-т Лесі Українки, 26 </a></li>
+              <li class="contact-item"><a href="mailto:info@devstudio.com" class="address-contacts">info@devstudio.com</a></li>
+              <li class="contact-item"><a href="tel:380961111111" class="address-contacts">38 096 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="follow-us">
+          <p>приєднуйтесь</p>
+          <ul class="list-settings follow-us-list">
+            <li>
+              <a class="social-link social-link-footer" href="https://www.instagram.com" target="_blank" rel="nofollow noopener noreferrer" aria-label="Instagram icon"
+                ><svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="social-link social-link-footer" href="https://twitter.com/?lang=ru" target="_blank" rel="nofollow noopener noreferrer" aria-label="Twitter icon"
+                ><svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="social-link social-link-footer" href="facebook.com" target="_blank" rel="nofollow noopener noreferrer" aria-label="Facebook icon"
+                ><svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li>
+              <a class="social-link social-link-footer" href="https://www.linkedin.com" target="_blank" rel="nofollow noopener noreferrer" aria-label="LinkedIn icon"
+                ><svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</html>
+
+
