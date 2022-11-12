@@ -206,7 +206,7 @@ header {
   justify-content: center;
   margin: 0 auto;
   border-radius: 4px;
-  min-width: 216px;
+  min-width: 200px;
   height: 50px;
 
   border: none;
@@ -512,6 +512,7 @@ header {
 }
 .contact-info {
   margin-right: 70px;
+  width: 231px;
 }
 .logo-footer {
   display: block;
@@ -548,6 +549,9 @@ header {
 .contact-item {
   margin-bottom: 9px;
 }
+.follow-us {
+  margin-right: 93px;
+}
 .follow-us > p {
   margin-bottom: 20px;
 
@@ -563,6 +567,46 @@ header {
 .social-link-footer {
   fill: var(--white-color);
   background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-form-title {
+  display: block;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.footer-form-input {
+  display: flex;
+  gap: 12px;
+}
+.footer-form-label {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+
+  padding: 15px 16px;
+
+  width: 358px;
+  height: 50px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  align-items: center;
+  color: var(--white-color);
+}
+.footer-form-label::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-form-button {
+  gap: 10px;
+  color: var(--white-color);
+  margin-right: 10px;
+}
+.form-button-icon {
+  fill: var(--white-color);
 }
 
 /* Модалка */
