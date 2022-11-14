@@ -468,17 +468,15 @@
         </div>
         <div>
           <strong class="footer-form-title">Підпишіться на розсилку</strong>
-          <div class="footer-form-input">
-            <form name="messages_form">
-              <label><input type="email" name="footer-user-mail" class="footer-form-label" placeholder="E-mail" /></label>
-            </form>
+          <form name="messages_form" class="footer-form-input">
+            <label><input type="email" name="footer-user-mail" class="footer-form-label" placeholder="E-mail" /></label>
             <button type="submit" class="footer-form-button primary-button">
               Підписатися
               <svg class="form-button-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </footer>
@@ -518,7 +516,7 @@
               >Коментар<textarea class="modal-textarea" name="user-comments" rows="9" placeholder="Введіть текст"></textarea>
             </label>
             <label class="modal-checkbox"
-              ><input class="form-checkbox" name="user_agreements" type="checkbox" />Погоджуюся з розсилкою та приймаю
+              ><input class="form-checkbox" name="user_agreements" type="checkbox" />Погоджуюся з розсилкою та приймаю &nbsp
               <a href="" class="contract-terms">Умови договору</a></label
             >
           </div>

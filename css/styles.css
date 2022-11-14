@@ -635,8 +635,7 @@ header {
   display: block;
   align-items: center;
   margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px;
   border-radius: 4px;
 
   width: 528px;
@@ -670,7 +669,7 @@ header {
 .modal-title {
   display: flex;
   justify-content: center;
-  margin: 0 47px 12px 37px;
+  margin-bottom: 12px;
 
   font-weight: 700;
   font-size: 20px;
@@ -682,8 +681,6 @@ header {
   position: relative;
 
   display: block;
-  margin-left: 41px;
-  margin-right: 39px;
   margin-bottom: 10px;
 
   font-size: 12px;
@@ -753,8 +750,7 @@ header {
 .modal-checkbox {
   display: flex;
   align-items: center;
-  margin-left: 54px;
-  margin-right: 51px;
+  justify-content: center;
   margin-bottom: 30px;
 
   line-height: 1.71;
